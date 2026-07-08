@@ -4,8 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin:0 ;
+            padding: 0;
+            font-family:sans-serif ;
+        }
+        .one, .two, .three, .four{
+            padding: 20px;
+            text-align: center;
+            font-size: 36px;
+            color: black;
+            font-weight: bold;
+        }
+        .one{
+         background-color: brown;
+        }
+        .two{
+            background-color: aqua;
+        }
+        .three{
+            background-color: blueviolet;
+        }
+        .four{
+            background-color: aquamarine;
+        }
+        .flexiblbox{
+            border: 2px solid;
+            display: flex;
+        }
+    </style>
 </head>
-<body>
-    
+<body>   
+ <div class="flexiblbox">
+    <p class="one">A</p>
+    <p class="two">B</p>
+    <p class="three">C</p>
+    <p class="four">D</p>
+ </div>
 </body>
 </html>
